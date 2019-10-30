@@ -10,8 +10,5 @@ setup(name='pyvlmc',
       author_email='mohsenhadianpour@gmail.com',
       install_requires=['numpy', 'scipy', 'pandas'],
       include_dirs=[np.get_include(), ],
-      packages=['pyvlmc']
-     )
-
-
-
+      packages=['pyvlmc', 'pyvlmc.internals', 'pyvlmc.smoothing']
+      )
